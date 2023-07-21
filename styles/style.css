@@ -166,12 +166,58 @@ li {
   color: #292d32;
 }
 
+.textCard__header {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.textCard__subheader {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -17px;
+  color: #838383;
+}
+
+.card__number {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #838383;
+}
+
+.card__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #838383;
+}
+
+.card__header {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292d32;
+}
+
 .benefit__header {
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
+  color: #292d32;
 }
 
 .benefit__text {
@@ -374,6 +420,61 @@ header {
 
 main {
   position: relative;
+}
+
+.catalog {
+  padding: 160px 260px 180px 260px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: space-between;
+  background: rgb(255, 255, 255);
+}
+.catalog .catalog__textCard {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  justify-self: start;
+  align-items: start;
+  padding: 0 40px 40px 40px;
+}
+.catalog .catalog__btnBox {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: baseline;
+}
+.catalog .catalog__card {
+  position: relative;
+  background: #f2f2f2;
+  border-radius: 20px;
+  width: 400px;
+  height: 371px;
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+  justify-content: end;
+  gap: 46px;
+  flex-wrap: nowrap;
+}
+.catalog .card__number {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+.catalog .card__imgBox {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 30px;
+}
+.catalog .card__textBox {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 19px;
+  padding: 0 40px 45px 40px;
 }
 
 .benefit {
