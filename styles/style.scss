@@ -52,11 +52,152 @@
     font-weight: 700;
     src: url("../fonts/Circe/Circe-Bold.ttf") format("ttf");
 }
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-Bold.eot");
+    src:
+        local("Euclid Circular A Bold"),
+        local("EuclidCircularA-Bold"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Bold.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Bold.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-Light.eot");
+    src:
+        local("Euclid Circular A Light"),
+        local("EuclidCircularA-Light"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Light.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Light.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-BoldItalic.eot");
+    src:
+        local("Euclid Circular A Bold Italic"),
+        local("EuclidCircularA-BoldItalic"),
+        url("../fonts/Euclid Circular/EuclidCircularA-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-BoldItalic.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-BoldItalic.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-LightItalic.eot");
+    src:
+        local("Euclid Circular A Light Italic"),
+        local("EuclidCircularA-LightItalic"),
+        url("../fonts/Euclid Circular/EuclidCircularA-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-LightItalic.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-LightItalic.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-Regular.eot");
+    src:
+        local("Euclid Circular A Regular"),
+        local("EuclidCircularA-Regular"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Regular.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Regular.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-SemiBold.eot");
+    src:
+        local("Euclid Circular A SemiBold"),
+        local("EuclidCircularA-SemiBold"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBold.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBold.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-Medium.eot");
+    src:
+        local("Euclid Circular A Medium"),
+        local("EuclidCircularA-Medium"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Medium.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Medium.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-Italic.eot");
+    src:
+        local("Euclid Circular A Italic"),
+        local("EuclidCircularA-Italic"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Italic.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Italic.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-SemiBoldItalic.eot");
+    src:
+        local("Euclid Circular A SemiBold Italic"),
+        local("EuclidCircularA-SemiBoldItalic"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBoldItalic.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Euclid Circular A";
+    src: url("../fonts/Euclid Circular/EuclidCircularA-MediumItalic.eot");
+    src:
+        local("Euclid Circular A Medium Italic"),
+        local("EuclidCircularA-MediumItalic"),
+        url("../fonts/Euclid Circular/EuclidCircularA-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Euclid Circular/EuclidCircularA-MediumItalic.woff2") format("woff2"),
+        url("../fonts/Euclid Circular/EuclidCircularA-MediumItalic.woff") format("woff"),
+        url("../fonts/Euclid Circular/EuclidCircularA-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
 $color-black: #292d32;
+$color-lightBlack: #343a41;
 $color-grey: #838383;
 $color-lightGrey: #e5e5e5;
 $color-lightBlue: #33a9ff;
-$color-white: white;
+$color-white: rgb(255, 255, 255);
+$color-darkWhite: #f2f2f2;
 * {
     font-family: Roboto;
     padding: 0;
@@ -65,6 +206,7 @@ $color-white: white;
 }
 body {
     width: 1920px;
+    background: $color-darkWhite;
 }
 // fonts config
 .nav {
@@ -100,6 +242,81 @@ li {
     letter-spacing: 0em;
     text-align: left;
     color: $color-black;
+}
+.benefit__header {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.benefit__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey;
+}
+.card__header {
+    font-family: Euclid Circular A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card__text {
+    font-family: Euclid Circular A;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lastNews__header {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-black;
+}
+.lastNews__subheader {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey;
+}
+.newBox__day {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    color: $color-black;
+}
+.newBox__mounth {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 11.72px;
+    color: $color-grey;
+}
+.newBox__header {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 200px;
+}
+.newBox__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .messageBox__header {
     font-size: 50px;
@@ -155,7 +372,10 @@ li {
     text-align: left;
     color: $color-black;
 }
+
 //1920 format
+
+//header
 header {
     width: 100%;
     display: flex;
@@ -163,6 +383,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 27px 260px 26px 260px;
+    background: $color-white;
 }
 .leftBoard {
     display: flex;
@@ -213,8 +434,174 @@ header {
         right: 0;
     }
 }
+
+//body
 main {
     position: relative;
+}
+.benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 0 260px 46px 260px;
+    .benefit__content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .benefit__mainImg {
+        width: 874px;
+    }
+    .benefit__headerBox {
+        min-width: 786px;
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+        padding-right: 268px;
+        margin-bottom: 6px;
+    }
+    .benefit__btnBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+        gap: 12px;
+    }
+    .benefit__cardsBox {
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+        justify-content: start;
+        align-items: center;
+    }
+    .benefit__card {
+        background: $color-black;
+        color: $color-white;
+        width: 330px;
+        height: 289px;
+        padding: 30px 24px 35px 30px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        position: relative;
+    }
+    .card__rightLine {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 139.5px;
+        height: 90px;
+    }
+    .card__iconBox {
+        width: 70px;
+        height: 70px;
+        background: $color-lightBlack;
+        padding: 17px;
+        border-radius: 10px;
+    }
+    .card__content {
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+        align-items: start;
+        gap: 13px;
+    }
+}
+
+.lastNews {
+    width: 100%;
+    padding: 172px 260px 526px 260px;
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 60px;
+    background: $color-white;
+    .lastNews__headerBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .lastNews__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 25px;
+        max-width: 721px;
+    }
+    .lastNews__btnBox {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 17px;
+    }
+    .allNewsBox {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+    }
+    .newBox__fon {
+        position: relative;
+        height: 262px;
+    }
+
+    .newBox__img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 25% 0% 25% 0% / 25% 0% 25% 25%;
+        z-index: 0;
+    }
+    .newBox__wave {
+        position: absolute;
+        top: 219px;
+        width: 331px;
+        height: 43px;
+        background: $color-white;
+        border-radius: 25% 46% 25% 0% / 0% 51% 0% 25%;
+    }
+    .newBox__date {
+        position: absolute;
+        z-index: 1;
+        top: 65px;
+        left: 390px;
+        width: 50px;
+        height: 97px;
+        border-radius: 15px;
+        background: $color-white;
+        padding: 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        text-align: center;
+    }
+    .newBox__bot {
+        width: 100%;
+        margin-top: -24px;
+        padding: 0 31px 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        position: relative;
+    }
+    .newBox__content {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .newBox__btnBox {
+        position: absolute;
+        left: 329px;
+        bottom: 46px;
+    }
 }
 .messageBox {
     position: absolute;
@@ -319,7 +706,12 @@ main {
         align-items: center;
     }
 }
+.ourContacts {
+    width: 100%;
+    height: 676px;
+}
 
+//footer
 footer {
     width: 100%;
     padding: 0px 260px;
@@ -327,6 +719,7 @@ footer {
     justify-content: start;
     align-items: start;
     flex-direction: column;
+    background: $color-white;
     .footer__top {
         padding: 60px 0px;
 
@@ -370,7 +763,8 @@ footer {
 }
 
 //UI
-.btn__blue {
+.btn__blue,
+.btn__black {
     width: 55px;
     height: 55px;
     background: $color-lightBlue;
@@ -385,4 +779,9 @@ footer {
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
+}
+.btn__black {
+    background: $color-black;
+    border: 12px solid $color-white;
+    padding: 23px;
 }
