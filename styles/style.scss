@@ -31,6 +31,7 @@
 }
 $color-black: #292d32;
 $color-grey: #838383;
+$color-lightGrey: #e5e5e5;
 $color-lightBlue: #33a9ff;
 $color-white: white;
 * {
@@ -50,14 +51,49 @@ body {
     letter-spacing: 0em;
     text-align: right;
     text-transform: uppercase;
+    color: $color-black;
 }
 .rightBoard__counter {
-    color: $color-white;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: center;
+    color: $color-white;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey;
+}
+.li__header {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-black;
+}
+.bot__header {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey;
+}
+.bot__content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-black;
 }
 //1920 format
 header {
@@ -118,4 +154,51 @@ header {
     }
 }
 
+footer {
+    width: 100%;
+    padding: 0px 260px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    .footer__top {
+        padding: 60px 0px;
 
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+        gap: 180px;
+    }
+    .footer__bot {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        padding: 40px 0px;
+        gap: 153px;
+        border-top: 1px solid $color-lightGrey;
+    }
+    .footer__logo {
+        width: 112px;
+        height: 112px;
+        margin-right: 10px;
+    }
+    .footer__column {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .bot__column {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 11px;
+        flex-direction: column;
+    }
+    .bot__soc {
+        width: 93.71px;
+        height: 37.71px;
+    }
+}
