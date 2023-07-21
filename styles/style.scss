@@ -3,7 +3,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
-    src: url("../fonts/Roboto-Light.ttf") format("ttf");
+    src: url("../fonts/Roboto/Roboto-Light.ttf") format("ttf");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 600;
-    src: url("../fonts/") format("ttf");
+    src: url("../fonts/Roboto/Roboto-Black.ttf") format("ttf");
 }
 
 @font-face {
@@ -27,7 +27,30 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/Roboto-Bold.ttf") format("ttf");
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Circe";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Circe/Circe-Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Circe";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Circe/Circe-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Circe";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Circe/Circe-Bold.ttf") format("ttf");
 }
 $color-black: #292d32;
 $color-grey: #838383;
@@ -71,13 +94,50 @@ li {
     color: $color-grey;
 }
 .li__header {
-    font-family: Roboto;
     font-size: 25px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
     color: $color-black;
+}
+.messageBox__header {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.messageBox__subheder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey;
+}
+.contactBox__header {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-grey;
+}
+.contactBox__content {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-black;
+}
+.input__header {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .bot__header {
     font-size: 16px;
@@ -153,6 +213,112 @@ header {
         right: 0;
     }
 }
+main {
+    position: relative;
+}
+.messageBox {
+    position: absolute;
+    left: 260px;
+    right: 260px;
+    bottom: 180px;
+    width: 1400px;
+    height: 842px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    .messageBox__IMG {
+        position: absolute;
+        top: 142px;
+        bottom: 109.84px;
+        left: 492px;
+    }
+    .messageBox__left {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding: 100px 165px 111px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background: $color-white;
+        gap: 52px;
+        border-radius: 20px 0px 0px 20px;
+        color: $color-black;
+    }
+    .messageBox__headerBox {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .messageBox__contactBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 21px;
+    }
+    .contactBox__icon {
+        width: 36px;
+        height: 36px;
+    }
+    .contactBox__text {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .messageBox__right {
+        padding: 100px 129px 103px 129px;
+        width: 50%;
+        height: 100%;
+        background: $color-black;
+        border-radius: 0px 20px 20px 0px;
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 53px;
+    }
+    .messageBox__inputsBox {
+        margin-bottom: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .inputBox {
+        position: relative;
+    }
+    .messageBox__input {
+        width: 434px;
+        height: 59.25px;
+        background: $color-black;
+        border: 2px solid rgba($color-white, 0.5);
+        border-radius: 16px;
+        box-shadow: none;
+        color: $color-white;
+    }
+    .comment {
+        height: 145.25px;
+    }
+    .input__header {
+        position: absolute;
+        background: $color-black;
+        padding: 7px 11px;
+        top: -17px;
+        left: 28px;
+    }
+    .messageBox__btnBox {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        justify-content: start;
+        align-items: center;
+    }
+}
 
 footer {
     width: 100%;
@@ -201,4 +367,22 @@ footer {
         width: 93.71px;
         height: 37.71px;
     }
+}
+
+//UI
+.btn__blue {
+    width: 55px;
+    height: 55px;
+    background: $color-lightBlue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10.51px 19.89px 9.34px 22.23px;
+    font-family: Circe;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
 }
