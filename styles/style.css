@@ -1,3 +1,118 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Roboto-Light.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Roboto-Bold.ttf") format("ttf");
+}
+* {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  width: 1920px;
+}
+
+.nav {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.rightBoard__counter {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 260px 26px 260px;
+}
+
+.leftBoard {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+}
+.leftBoard .logo {
+  width: 70px;
+  height: 70px;
+}
+.leftBoard nav {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+.leftBoard .nav {
+  cursor: pointer;
+}
+.leftBoard .searchIcon {
+  width: 20px;
+  left: 20px;
+  margin-left: -9.26px;
+}
+
+.rightBoard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.rightBoard .rightIcon {
+  width: 49px;
+  height: 49px;
+}
+.rightBoard .rightBoard__cartBox {
+  position: relative;
+}
+.rightBoard .rightBoard__counter {
+  border-radius: 50%;
+  background: #33a9ff;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
