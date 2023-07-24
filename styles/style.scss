@@ -208,7 +208,6 @@ $color-tracker: #d0d0d0;
 body {
     width: 1920px;
     background: $color-darkWhite;
-    overflow-x: hidden;
 }
 // fonts config
 .nav {
@@ -524,12 +523,13 @@ main {
     padding: 0 0 0 260px;
     justify-content: start;
     align-items: center;
-    .Dell__img{
+    .Dell__img {
         position: absolute;
         top: 97.4px;
         left: 260px;
         z-index: -1;
     }
+
     .sidebar {
         display: flex;
         flex-direction: row;
@@ -548,10 +548,34 @@ main {
         position: relative;
         padding: 0 60px;
         width: 1081px;
+        height: 683px;
         display: flex;
         flex-direction: row;
         justify-self: start;
         align-items: center;
+    }
+    .sliderBox__position {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition:
+            visibility 0s,
+            opacity 0.7s linear;
+    }
+    .sliderBox__position__active {
+        display: flex;
+        flex-direction: row;
+        justify-self: start;
+        align-items: center;
+        visibility: visible;
+        opacity: 1;
+        transition:
+            visibility 0s,
+            opacity 0.7s linear;
     }
     .sliderBox__content {
         display: flex;
@@ -588,12 +612,14 @@ main {
         height: 5px;
         border-radius: 50%;
         background: $color-tracker;
+        transition: all 1s;
     }
     .tracker_active {
         width: 9px;
         height: 9px;
         border-radius: 50%;
         background: $color-black;
+        transition: all 1s;
     }
     .otherOffers {
         flex-grow: 1;
@@ -683,7 +709,7 @@ main {
     flex-direction: column;
     gap: 48px;
     padding: 0 260px 46px 260px;
-    .bestImg{
+    .bestImg {
         position: absolute;
         top: 152px;
         left: 10px;
@@ -952,11 +978,10 @@ main {
 .ourContactsBox {
     position: relative;
     width: 100%;
-    height: 676px;
-    .ourContactsText{
+    .ourContactsText {
         position: absolute;
         left: 0;
-        top: 164px;
+        top: 184px;
     }
 }
 

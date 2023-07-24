@@ -127,7 +127,6 @@
 body {
   width: 1920px;
   background: #f2f2f2;
-  overflow-x: hidden;
 }
 
 .nav {
@@ -494,10 +493,30 @@ main {
   position: relative;
   padding: 0 60px;
   width: 1081px;
+  height: 683px;
   display: flex;
   flex-direction: row;
   justify-self: start;
   align-items: center;
+}
+.sliderBlock .sliderBox__position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.7s linear;
+}
+.sliderBlock .sliderBox__position__active {
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  align-items: center;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.7s linear;
 }
 .sliderBlock .sliderBox__content {
   display: flex;
@@ -534,12 +553,14 @@ main {
   height: 5px;
   border-radius: 50%;
   background: #d0d0d0;
+  transition: all 1s;
 }
 .sliderBlock .tracker_active {
   width: 9px;
   height: 9px;
   border-radius: 50%;
   background: #292d32;
+  transition: all 1s;
 }
 .sliderBlock .otherOffers {
   flex-grow: 1;
@@ -901,12 +922,11 @@ main {
 .ourContactsBox {
   position: relative;
   width: 100%;
-  height: 676px;
 }
 .ourContactsBox .ourContactsText {
   position: absolute;
   left: 0;
-  top: 164px;
+  top: 184px;
 }
 
 footer {
