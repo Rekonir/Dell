@@ -137,6 +137,7 @@ body {
   text-align: right;
   text-transform: uppercase;
   color: #292d32;
+  cursor: pointer;
 }
 
 .rightBoard__counter {
@@ -427,6 +428,7 @@ header {
 }
 
 .rightBoard {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -436,6 +438,7 @@ header {
 .rightBoard .rightIcon {
   width: 49px;
   height: 49px;
+  cursor: pointer;
 }
 .rightBoard .rightBoard__cartBox {
   position: relative;
@@ -1000,6 +1003,46 @@ footer .bot__soc {
   background: #292d32;
   border: 12px solid rgb(255, 255, 255);
   padding: 23px;
+}
+
+.accMenu {
+  position: absolute;
+  width: 405px;
+  height: 400px;
+  top: 79px;
+  left: -192.57px;
+  box-shadow: 0px 1.7530173063px 9.391163826px 0px rgba(0, 0, 0, 0.0666666667);
+  box-shadow: 0px 14px 75px 0px rgba(0, 0, 0, 0.1294117647);
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  padding: 30.49px 30px 19.51px 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 40px;
+  background: rgb(255, 255, 255);
+  z-index: 2;
+}
+.accMenu .accMenu__headerBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.accMenu .accMenu__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accMenu_active {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

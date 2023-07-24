@@ -26,3 +26,4 @@ const changeSlide = () => {
     }, 10000)
 }
 changeSlide()
+
