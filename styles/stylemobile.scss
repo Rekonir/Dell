@@ -1,0 +1,507 @@
+@media (max-width: 375px) {
+    $color-black: #292d32;
+    $color-lightBlack: #343a41;
+    $color-grey: #838383;
+    $color-lightGrey: #e5e5e5;
+    $color-lightBlue: #33a9ff;
+    $color-white: rgb(255, 255, 255);
+    $color-darkWhite: #f2f2f2;
+    $color-tracker: #d0d0d0;
+    * {
+        font-family: Roboto;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        width: 375px;
+        background: $color-darkWhite;
+    }
+    //
+    .sliderBox__subheader {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .sliderBox__header {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .textCard__header {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .textCard__subheader {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .card__number {
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .card__text {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .card__header {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .lastNews__header {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $color-black;
+    }
+    .lastNews__subheader {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $color-grey;
+    }
+    .newBox__day {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 11px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .newBox__mounth {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 7px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .newBox__header {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .newBox__text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .messageBox__header {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .contactBox__content {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .contactBox__header {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $color-grey;
+    }
+    .subheder__messageBox {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .input__header {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    li {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .li__header {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    //
+
+    header {
+        width: 375px;
+        padding: 15px;
+    }
+    .leftBoard {
+        gap: 65px;
+        .logo {
+            width: 60px;
+            height: 60px;
+        }
+        .searchIcon {
+            margin-left: 0;
+        }
+        nav,
+        .nav {
+            display: none;
+        }
+    }
+    .rightBoard {
+        gap: 15px;
+        .rightIcon {
+            width: 46px;
+            height: 46px;
+            cursor: pointer;
+        }
+        .rightIcon:nth-child(3),
+        .rightIcon:nth-child(4) {
+            display: none;
+        }
+        .burgerBox {
+            display: block;
+            width: 46px;
+            height: 46px;
+            padding: 14px;
+        }
+        .burger__btn {
+            position: relative;
+            display: block;
+            width: 18px;
+            border: 1.5px solid $color-black;
+            &::after,
+            &::before {
+                content: "";
+                display: block;
+                width: 18px;
+                border: 1.5px solid $color-black;
+                position: absolute;
+                left: -2px;
+            }
+            &::before {
+                top: 8px;
+            }
+            &::after {
+                top: -8px;
+            }
+        }
+    }
+
+    .sliderBlock {
+        width: 100%;
+        flex-direction: column;
+        padding: 80px 15px 0px 15px;
+        .Dell__img {
+            top: 18px;
+            left: 32px;
+        }
+        .sidebar {
+            display: none;
+        }
+        .sliderBox {
+            width: 100%;
+            flex-direction: column;
+            align-items: start;
+        }
+        .sliderBox__position__active {
+            flex-direction: column;
+            gap: 10px;
+            align-items: start;
+        }
+        .sliderBox__tracker {
+            right: 130px;
+            bottom: 29px;
+        }
+        .sliderBox__content {
+            width: 100%;
+            gap: 28px;
+        }
+        .sliderBox__btnBox {
+            gap: 15px;
+        }
+        .otherOffers {
+            position: relative;
+            width: 100%;
+            height: 196px;
+        }
+        .otherOffers__content {
+            width: 252px;
+            height: 196px;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .otherOffers__text {
+            position: absolute;
+            left: -103px;
+            top: 59px;
+            bottom: 59px;
+        }
+        .otherOffers__arrowBox {
+            position: absolute;
+            top: -45px;
+            padding: 0 15px;
+            display: flex;
+            justify-content: end;
+            align-items: start;
+        }
+    }
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        gap: 19.64px;
+        padding: 120px 15px;
+        .catalog__textCard {
+            width: 100%;
+            margin-bottom: 20px;
+            gap: 30px;
+            flex-direction: column;
+            padding: 0;
+        }
+        .catalog__btnBox {
+            gap: 15px;
+        }
+        .catalog__card {
+            width: 345px;
+            height: 275px;
+            gap: 14px !important;
+            padding: 15px 21px 20px 20px;
+        }
+        .card__imgBox {
+            padding-right: 0px;
+        }
+        .card__img {
+            width: 253px;
+            height: 167px;
+        }
+        .card__number {
+            top: 20px;
+            left: 20px;
+        }
+        .card__textBox {
+            gap: 0 !important;
+        }
+    }
+    .benefit {
+        gap: 17px;
+        padding: 101px 15px 115px 15px;
+        .bestImg {
+            display: none;
+        }
+        .benefit__content {
+            flex-direction: column-reverse;
+            gap: 0;
+        }
+        .benefit__headerBox {
+            padding: 0 15px;
+            gap: 20px;
+            min-width: 0;
+            width: 375px;
+            padding-right: 0;
+            margin-bottom: -55px;
+        }
+        .benefit__btnBox {
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .benefit__mainImg {
+            margin-left: 90px;
+            width: 100%;
+        }
+        .benefit__cardsBox {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .benefit__card {
+            color: $color-white !important;
+        }
+    }
+    .lastNews {
+        padding: 120px 15px;
+        align-items: center;
+        gap: 20px;
+        .lastNews__headerBox {
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 19px;
+        }
+        .lastNews__btnBox {
+            gap: 15px;
+        }
+        .allNewsBox {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .newBox {
+            width: 306px;
+        }
+        .newBox__fon {
+            width: 100%;
+            height: 165px;
+        }
+        .newBox__img {
+            width: 100%;
+        }
+        .newBox__wave {
+            top: 142px;
+            width: 252.87px;
+            height: 21px;
+        }
+        .newBox__date {
+            top: 54px;
+            left: 286px;
+            width: 39.41px;
+            height: 76.06px;
+            padding: 21px 0;
+            gap: 10px;
+        }
+        .newBox__bot {
+            margin-top: -10px;
+            padding: 0 26px 20px 20px;
+        }
+        .newBox__content {
+            width: 100%;
+        }
+        .newBox__btnBox {
+            left: 245.87px;
+            bottom: 73.9px;
+        }
+    }
+    .messageBox {
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: relative;
+        padding: 0 0;
+        flex-direction: column;
+        .messageBox__left {
+            width: 100%;
+            padding: 110px 63px 60px 30px;
+            gap: 43px;
+            border-radius: 0px;
+        }
+        .messageBox__headerBox {
+            gap: 15px;
+        }
+        .messageBox__contactBox {
+            gap: 11px;
+        }
+        .contactBox__icon {
+            width: 17px;
+            height: 17px;
+        }
+        .contactBox__text {
+            width: 100%;
+            gap: 0;
+        }
+        .messageBox__right {
+            width: 100%;
+            padding: 60px 30px 60px 30px;
+            border-radius: 0px;
+            gap: 40px;
+        }
+        .messageBox__inputsBox {
+            margin-bottom: -10px;
+            margin-top: 10px;
+            gap: 40px;
+        }
+        .messageBox__input {
+            width: 315px;
+            height: 40px;
+        }
+        .comment {
+            height: 80px;
+        }
+        .messageBox__IMG {
+            width: 87px;
+            height: 244px;
+            top: 581px;
+            left: 224px;
+        }
+    }
+    .ourContactsBox {
+        display: none;
+    }
+
+    footer {
+        padding: 0 16px;
+        .footer__top {
+            width: 100%;
+            position: relative;
+            padding-top: 130px;
+            display: grid;
+            gap: 50px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .footer__logo {
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            top: 30.55px;
+            left: 153px;
+        }
+        .footer__column {
+            gap: 10px;
+        }
+        .li__header {
+            margin-bottom: 5px;
+        }
+        .footer__bot {
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 0;
+            align-items: start;
+        }
+        .bot__soc {
+            width: 90px;
+            height: 30px;
+        }
+    }
+
+    .btn__blue,
+    .btn__black {
+        width: 45px;
+        height: 45px;
+    }
+}

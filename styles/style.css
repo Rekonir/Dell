@@ -247,6 +247,7 @@ li,
   color: #838383;
 }
 
+.benefitCard__header,
 .card__header {
   font-family: Euclid Circular A;
   font-size: 22px;
@@ -254,9 +255,14 @@ li,
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  color: #292d32;
+}
+
+.benefitCard__header {
   color: rgb(255, 255, 255);
 }
 
+.benefitCard__text,
 .card__text {
   font-family: Euclid Circular A;
   font-size: 16px;
@@ -397,7 +403,7 @@ header {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   gap: 30px;
 }
@@ -420,6 +426,10 @@ header {
   position: absolute;
   top: 0;
   right: 0;
+}
+.rightBoard .burgerBox,
+.rightBoard .burger__btn {
+  display: none;
 }
 
 main {
@@ -659,7 +669,6 @@ main {
 }
 .benefit .benefit__card {
   background: #292d32;
-  color: rgb(255, 255, 255);
   width: 330px;
   height: 289px;
   padding: 30px 24px 35px 30px;
@@ -689,6 +698,7 @@ main {
   justify-self: start;
   align-items: start;
   gap: 13px;
+  color: rgb(255, 255, 255) !important;
 }
 
 .lastNews {
@@ -769,9 +779,10 @@ main {
   padding: 0 31px 0 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   align-items: start;
   position: relative;
+  background: rgb(255, 255, 255);
 }
 .lastNews .newBox__content {
   display: flex;
@@ -879,6 +890,7 @@ main {
   padding: 7px 11px;
   top: -17px;
   left: 28px;
+  color: #f2f2f2;
 }
 .messageBox .messageBox__btnBox {
   display: flex;
