@@ -182,16 +182,19 @@
     display: none;
   }
   .rightBoard .burgerBox {
+    position: relative;
     display: block;
     width: 46px;
     height: 46px;
-    padding: 14px;
+    padding: 20px 14px 14px 14px;
   }
   .rightBoard .burger__btn {
     position: relative;
     display: block;
-    width: 18px;
+    width: 20px;
     border: 1.5px solid #292d32;
+    background: #292d32;
+    transition: all 0.5s;
   }
   .rightBoard .burger__btn::after, .rightBoard .burger__btn::before {
     content: "";
@@ -199,13 +202,42 @@
     width: 18px;
     border: 1.5px solid #292d32;
     position: absolute;
-    left: -2px;
+    left: -1.5px;
+    background: #292d32;
+    transition: all 0.5s;
   }
   .rightBoard .burger__btn::before {
     top: 8px;
   }
   .rightBoard .burger__btn::after {
     top: -8px;
+  }
+  .rightBoard .burger__btn_active {
+    position: relative;
+    display: block;
+    height: 0;
+    width: 20px;
+    transition: all 0.5s, border 0s;
+    border: 0 solid transparent;
+  }
+  .rightBoard .burger__btn_active::after, .rightBoard .burger__btn_active::before {
+    content: "";
+    display: block;
+    width: 18px;
+    border: 1.5px solid #292d32;
+    position: absolute;
+    top: -1.5px;
+    background: #292d32;
+    transition: all 0.5s;
+  }
+  .rightBoard .burger__btn_active::before {
+    transform: rotate(45deg);
+  }
+  .rightBoard .burger__btn_active::after {
+    transform: rotate(-45deg);
+  }
+  main {
+    height: 8280px;
   }
   .sliderBlock {
     width: 100%;
@@ -487,6 +519,29 @@
   .btn__black {
     width: 45px;
     height: 45px;
+  }
+  .burger__menu {
+    position: absolute;
+    top: 70px;
+    left: -315px;
+    width: 375px;
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    z-index: 2;
+  }
+  .burger__menu .burger__nav {
+    padding: 56px 257px 64px 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    background: rgb(255, 255, 255);
+  }
+  .burger__menu .burger__fon {
+    display: block;
+    width: 375px;
+    height: 8360px;
+    background: rgba(131, 131, 131, 0.5);
   }
 }
 
